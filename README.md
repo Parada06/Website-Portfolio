@@ -4,10 +4,10 @@ This is a simple responsive **Personal Portfolio Website** created using **HTML,
 It features a dark/light mode toggle, mobile navigation menu, and sections that showcase personal information, hobbies, and contact details.
 ## Project Structure
 Portfolio/
-┣ index.html → Main webpage structure
-┣ styles.css → Website styling and theme design
-┣ script.js → Handles theme toggle and menu interaction
-┗ images/ → Profile and hobby images (e.g., Chess.jpg, Anime.jpg)
+┣  index.html → Main webpage structure
+┣  styles.css → Website styling and theme design
+┣  script.js → Handles theme toggle and menu interaction
+┗  images/ → Profile and hobby images (e.g., Chess.jpg, Anime.jpg)
 
 
 ---
@@ -26,7 +26,7 @@ Portfolio/
 ## Technologies Used
 - **HTML5** — Structure and content  
 - **CSS3** — Styling, layout, and responsiveness  
-- **JavaScript ** — Interactivity and theme switching  
+- **JavaScript** — Interactivity and theme switching  
 - **Font Awesome** — For icons (social media, menu)
 
 ---
