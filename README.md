@@ -5,8 +5,11 @@ It features a dark/light mode toggle, mobile navigation menu, and sections that 
 ## Project Structure
 Portfolio/
 ┣  index.html → Main webpage structure
+
 ┣  styles.css → Website styling and theme design
+
 ┣  script.js → Handles theme toggle and menu interaction
+
 ┗  images/ → Profile and hobby images (e.g., Chess.jpg, Anime.jpg)
 
 
@@ -40,11 +43,15 @@ Portfolio/
 ---
 
 ## Team
-** Barnido, Eunicia M. **
-** Brecenio, Emy Joy F. **
-** Delos Santos, Kiel Keneth B. **
-** Parada, Jay em M. **
-** Rosero, Froilan O. **
+**Barnido, Eunicia M.**
+
+**Brecenio, Emy Joy F.**
+
+**Delos Santos, Kiel Keneth B.**
+
+**Parada, Jay em M.**
+
+**Rosero, Froilan O.**
 
 ---
 
