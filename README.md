@@ -1,6 +1,3 @@
-# Group3-Project
-A open source (ITP1) project
-
 #  Personal Portfolio Website
 
 This is a simple responsive **Personal Portfolio Website** created using **HTML, CSS, and JavaScript**.  
