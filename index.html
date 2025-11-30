@@ -12,12 +12,15 @@
   
   <header>
     <a href="#" class="logo">PORTFOLIO</a>
+    
     <div class="fa-solid fa-bars" id="menu-icon"></div>
     <ul class="navbar">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
+      <li><a href="#skill">Skill</a></li>
       <li><a href="#hobbies">Hobbies</a></li>
       <li><a href="#contact">Contact</a></li>
+      <div id="theme-toggle">🌓</div>
     </ul>
   </header>
   
@@ -47,11 +50,55 @@
       </div>
     </section>
     
+        <!-------skill start------->
+    <section class="skill" id="skill">
+      <div class="heading">
+        <span>Skill</span>
+        <h2>Programming and Markup Language </h2>
+        <p>I have experience with the following languages.</p>
+      </div>
+      
+      <div class="menu-container">
+        <div class="box">
+          <div class="box-img">
+            <img src="Java logo.jpg" style="border-radius: 8px;">
+          </div>
+          <h2>Java</h2>
+          <h3>Beginner level</h3>
+        </div>
+        
+        <div class="box">
+          <div class="box-img">
+            <img src="C++ logo.jpg" style="border-radius: 8px;">
+          </div>
+          <h2>C++</h2>
+          <h3>Beginner level</h3>
+        </div>
+        
+        <div class="box">
+          <div class="box-img">
+            <img src="Html logo.jpg" style="border-radius: 8px;">
+          </div>
+          <h2>Html</h2>
+          <h3>Beginner level</h3>
+        </div>
+
+        <div class="box">
+          <div class="box-img">
+            <img src="CSS logo.jpg" style="border-radius: 8px;">
+          </div>
+          <h2>Css</h2>
+          <h3>Beginner level</h3>
+        </div>
+
+      </div>
+    </section>
+
     <!-------hobbies start------->
     <section class="hobbies" id="hobbies">
       <div class="heading">
         <span>Interest</span>
-        <h2>My hobby</h2>
+        <h2>My hobbies</h2>
       </div>
       
       <div class="menu-container">
@@ -60,7 +107,7 @@
             <img src="Chess.jpg" style="border-radius: 8px;">
           </div>
           <h2>Chess</h2>
-          <h3>Playing chess po because I'm bored</h3>
+          <h3> </h3>
           <span>♥</span>
         </div>
         
@@ -69,7 +116,7 @@
             <img src="Anime.jpg" style="border-radius: 8px;">
           </div>
           <h2>Anime: HAIKYU</h2>
-          <h3>Watching anime because I'm bored po</h3>
+          <h3></h3>
           <span>♥</span>
         </div>
         
@@ -78,7 +125,7 @@
             <img src="K-drama.jpg" style="border-radius: 8px;">
           </div>
           <h2>K-drama</h2>
-          <h3>watching k-drama kasi po pampalipas oras</h3>
+          <h3></h3>
           <span>♥</span>
         </div>
         
@@ -86,11 +133,21 @@
     </section>
     
     <!-------contact start------->
-    <section class="cta">
+    <section class="cta" id="cta">
       <h2>Let's Talk</h2>
-      <a href="#contact" class="btn">Contact me</a>
+      <a href="#cta" class="btn">Contact me</a>
     </section>
-    
+
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+
+    <button>Send Message</button>
+  </div>
+
     <!-------footer start------->
     <section id="contact">
       <div class="footer">
@@ -100,22 +157,23 @@
             <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
+              <li><a href="#skill">Skill</a></li>
               <li><a href="#hobbies">Hobbies</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
           
-          <div class="col">
-            <h4>About Me</h4>
-            <ul>
-              <li><a href="#">Content Creator</a></l>
-            </ul>
-          </div>
+            <div class="col">
+              <h4>About Me</h4>
+              <ul>
+                <li><a href="#hobbies">2nd Year IT Student</a></l>
+              </ul>
+            </div> 
           
           <div class="col">
             <h4>Information</h4>
             <ul>
-              <li><a href="#">About Me</a></li>
+              <li><a href="#hobbies">About Me</a></li>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Terms & Conditions</a></li>
             </ul>
@@ -125,8 +183,8 @@
             <h4>Contact Me</h4>
             <div class="social">
               <a href="https://web.facebook.com/emyjoy.friabrecenio"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-telegram"></i></i>
-              <a href="https://github.com/emzieee"><i class="fa-brands fa-github"></i></a>
+              <a href="#https://web.facebook.com/emyjoy.friabrecenio"><i class="fa-brands fa-telegram"></i></a>
+              <a href="#https://web.facebook.com/emyjoy.friabrecenio"><i class="fa-brands fa-github"></i></a>
             </div>
           </div>
           
@@ -135,7 +193,7 @@
     </section>
     
     <!----Javascript---->
-    <script type="text/javascript" src="js/script.js"></script>
+    <script src="script.js"></script>
   
 </body>
 </html>
